@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Brand Motion</title>
+    <link>https://brandmotion.github.io/web/posts/</link>
+    <description>Recent content in Posts on Brand Motion</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://brandmotion.github.io/web/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sample Video Post</title>
+      <link>https://brandmotion.github.io/web/posts/my-first-post-copy-2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://brandmotion.github.io/web/posts/my-first-post-copy-2/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s an example blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sample Video Post</title>
+      <link>https://brandmotion.github.io/web/posts/my-first-post-copy-3/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://brandmotion.github.io/web/posts/my-first-post-copy-3/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s an example blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sample Video Post</title>
+      <link>https://brandmotion.github.io/web/posts/my-first-post-copy-4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://brandmotion.github.io/web/posts/my-first-post-copy-4/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s an example blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sample Video Post</title>
+      <link>https://brandmotion.github.io/web/posts/my-first-post-copy-5/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://brandmotion.github.io/web/posts/my-first-post-copy-5/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s an example blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sample Video Post</title>
+      <link>https://brandmotion.github.io/web/posts/my-first-post-copy/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://brandmotion.github.io/web/posts/my-first-post-copy/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s an example blog post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sample Video Post</title>
+      <link>https://brandmotion.github.io/web/posts/my-first-post/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://brandmotion.github.io/web/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s an example blog post.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

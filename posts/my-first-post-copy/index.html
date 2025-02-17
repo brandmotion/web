@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full min-h-screen font-sans subpixel-antialiased bg-twitch-eigengrau">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <title>Sample Video Post | Brand Motion</title>
+    
+</head>
+<body class="relative flex flex-col h-full min-h-screen">
+    
+<div class="z-10 flex flex-col -mb-6 text-white transition grow">
+    <div class="hidden w-full mx-auto h-36 max-w-screen-2xl xl:inline-block">
+  <nav class="w-full mx-auto text-white max-w-screen-2xl">
+      <div class="relative z-10 flex flex-row items-center px-2">
+          <div class="relative flex items-center justify-center w-48 mt-2 ml-10 shrink-0"><a
+                  href="/" class="w-full aspect-w-2 aspect-h-1"><img
+                      alt="Twitchcon Home" class="object-contain w-full h-full -mt-2"
+                      src="/images/tc23_logo_clean.png"></a></div>
+          <div class="flex flex-col justify-between flex-1 h-full py-6 ml-10 text-sm">
+              <div>
+                  <div class="flex flex-row items-center justify-center text-sm">
+                      <div class="flex">
+                          <div class="flex flex-row items-center gap-x-6">
+                              <div class="flex flex-col"><a href="/about"
+                                      class="group"><span
+                                          class="arrow-↗ after:ml-2 group-hover:after:animate-[ne-arrow_.4s_ease-in_forwards]"><span
+                                              class="font-semibold">Call us</span></span>
+                                      <span class="block opacity-70"> </span></a></div>
+                              <div class="flex flex-col"><a href="/"
+                                      class="group"><span
+                                          class="arrow-↗ after:ml-2 group-hover:after:animate-[ne-arrow_.4s_ease-in_forwards]"><span
+                                              class="font-semibold">Mail us</span></span>
+                                      <span class="block opacity-70"></span></a></div>
+                          </div>
+                      </div>
+                      <div class="flex grow"></div>
+                      <div>
+                          <div class="flex flex-row items-center justify-center space-x-4 text-sm shrink-0"><a
+                                  href="/posts/">Works</a>
+                              <a href="/about/" target="_blank">About</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="flex flex-row items-center h-10 mt-6 mr-4">
+                  <div class="pr-4 my-auto grow">
+                      <ul class="flex flex-row items-center text-base gap-x-6 text-twitch-eigengrau"></ul>
+                  </div>
+                  <div class="ml-auto text-black">
+                      <ul class="flex gap-4"></ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>
+</div>
+<nav class="z-50 w-full bg-twitch-white xl:hidden">
+  <div class="relative overflow-y-scroll text-black bg-white" id="mobileMenuContainer">
+      <div>
+          <div class="flex flex-row items-center w-full px-2">
+              <div class="flex items-start w-1/2 my-4 h-14"><a href="/"><img
+                          aria-label="Mobile Navigation Icon" aria-haspopup="true" class="h-[72px] w-32"
+                          src="/images/tc23_logo_no-pill.png" alt="TwitchCon Home"></a></div>
+              <div class="flex items-start justify-end w-1/2 h-12 mr-3">
+                  <button
+                      id="menuToggleButton"
+                      class="w-12 h-12 rounded-full"
+                      aria-label="Open Menu">
+                      <svg width="48" height="48" fill="none"
+                          xmlns="http://www.w3.org/2000/svg" class="menu-icon">
+                          <rect width="48" height="48" rx="24" fill="#9146ff"></rect>
+                          <path fill="#fff" d="M15 18h18v2H15zm0 5h18v2H15zm0 5h12v2H15z"></path>
+                      </svg>
+                      <svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                          class="close-icon hidden">
+                          <rect width="48" height="48" rx="24" fill="#9146ff"></rect>
+                          <path
+                              d="M18.414 17 17 18.414l5.588 5.588L17 29.59l1.414 1.414 5.588-5.588 5.588 5.588 1.414-1.414-5.588-5.588 5.588-5.588L29.59 17l-5.588 5.588L18.414 17z"
+                              fill="#fff"></path>
+                      </svg>
+                  </button>
+              </div>
+          </div>
+      </div>
+      <div class="w-full py-2 overflow-x-auto bg-white-300 no-scrollbar">
+          <div class="flex w-full mx-4">
+              <ul class="flex flex-row items-center justify-center my-auto gap-x-2">
+                  <li class="flex"><a href="/posts"
+                          class="bg-black text-twitch-white text-lg px-4 py-2 max-w-full inline-block rounded-full truncate shrink-0">Featured Works</a></li>
+                  <li class="flex"><a href="/about"
+                          class="bg-black text-twitch-white text-lg px-4 py-2 max-w-full inline-block rounded-full truncate shrink-0">Contact us</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="z-50 w-full h-full mt-4 overflow-y-auto transition-all hidden" id="mobileNav">
+          <ul class="flex flex-col gap-4">
+              <li><a href="/about"
+                      class="relative flex px-8 py-8 mx-8 bg-twitch-widow/20 hover:bg-widow/70 rounded-xl arrow-ne"><span
+                          class="font-medium">About</span>:
+                      <span class="mr-1 font-semibold"></span></a></li>
+              <li><a href="/posts"
+                      class="relative flex px-8 py-8 mx-8 bg-twitch-widow/20 hover:bg-widow/70 rounded-xl arrow-ne"><span
+                          class="font-medium">Works</span>:
+                      <span class="mr-1 font-semibold"></span></a></li>
+          </ul>
+          <ul class="flex flex-col gap-4"></ul>
+          <ul class="flex flex-col mx-8 mt-8 text-black shrink-0">
+              <li class="py-2 border-b"><a
+                      href="/posts/"
+                      target="_blank">Works</a></li>
+              <li class="py-2 border-b"><a href="/about/"
+                      target="_blank">About</a></li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<script>
+  document.getElementById('menuToggleButton').addEventListener('click', function () {
+    const mobileNav = document.getElementById('mobileNav');
+    const menuIcon = document.querySelector('.menu-icon');
+    const closeIcon = document.querySelector('.close-icon');
+
+    mobileNav.classList.toggle('hidden');
+    menuIcon.classList.toggle('hidden');
+    closeIcon.classList.toggle('hidden');
+  });
+</script>
+
+    <div class="w-full h-full pt-2 xl:pt-20 xl:-mt-[72px] pb-2 mx-auto space-y-2 bg-white lg:space-y-4 text-twitch-eigengrau rounded-b-3xl xl:rounded-3xl max-w-screen-2xl grow">
+        <div :aria-hidden=showMobileNav class="w-full h-full pt-2 xl:pt-20 xl:-mt-[72px] pb-2 mx-auto space-y-2 bg-white lg:space-y-4 text-twitch-eigengrau rounded-b-3xl xl:rounded-3xl max-w-screen-2xl grow">
+            <div class="px-2 lg:px-4" tw-impression-id>
+                <div class="relative flex flex-col gap-2 lg:gap-4 xl:flex-row">
+                    <div class="overflow-hidden xl:w-4/5">
+                        <div class="overflow-hidden rounded-3xl">
+                            <div class="overflow-hidden bg-white rounded-t-xl lg:rounded-t-3xl">
+                                <div class="aspect-w-16 aspect-h-9">
+                                    <a href="https://brandmotion.github.io/web/posts/my-first-post-copy/">
+                                        <div class="h-full">
+                                            
+                                                
+                                                
+                                                
+                                                    
+                                                
+                                                <iframe 
+                                                    title="vimeo-player" 
+                                                    src="https://player.vimeo.com/video/1043156835?h=2d1b5264fb"
+                                                    class="h-full w-full"
+                                                    frameborder="0"
+                                                    allow="autoplay; fullscreen; picture-in-picture"
+                                                    allowfullscreen
+                                                    onerror="this.style.display='none'; document.getElementById('fallback-1043156835?h=2d1b5264fb').style.display='block';">
+                                                </iframe>
+                                                <p id="fallback-1043156835?h=2d1b5264fb" style="display:none;" class="text-red-500">
+                                                    This video cannot be embedded. 
+                                                    <a href="https://vimeo.com/1043156835?h=2d1b5264fb" class="text-blue-500 underline" target="_blank" rel="noopener noreferrer">
+                                                        Watch on Vimeo
+                                                    </a>
+                                                </p>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xl:w-1/5">
+                        <div class="bg-twitch-lightning text-twitch-black p-6 rounded-3xl h-full">
+                            <div class="h-full overflow-hidden">
+                                <div class="relative flex flex-col justify-between h-full">
+                                    <div class="mb-8 text-4xl shrink-0 grow">
+                                        <h1>Sample Video Post</h1>
+                                    </div>
+                                    <div x-data=emotify class="text-xl">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <section class="mx-2 lg:mx-4 bg-twitch-droid text-twitch-black rounded-3xl" tw-impression-id>
+                    <div class="flex flex-col">
+                        <div class="relative grid h-full grid-cols-1 gap-6 p-4 lg:gap-16 lg:grid-cols-2 lg:items-start lg:p-16">
+                            <div class="h-full col-span-1">
+                                <div class="flex flex-col flex-1 h-full gap-4 grow shrink-0 mt-auto">
+                                    <div x-data=emotify class="text-xl"><p><p>Here&rsquo;s an example blog post.</p>
+</p></div>
+                                    <div class="w-full mt-auto">
+                                        <div class="flex w-full h-full pills">
+                                            <ul class="flex flex-wrap h-full gap-2 w-full items-end" aria-label="Pills">
+                                                <li class="flex">
+                                                    <a href="/" class="bg-black text-twitch-white text-lg px-4 py-2 max-w-full inline-block rounded-full truncate shrink-0 arrow-e hover:after:animate-[e-arrow_.4s_ease-in_forwards]">
+                                                        Go Back
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="relative pb-10 text-sm" aria-labelledby="footer-heading" tw-impression-id="footer">
+	<div class="px-12 pt-12 mx-auto mt-6 max-w-screen-2xl lg:pt-16 text-twitch-ice">
+		<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-4">
+			<div class="grid grid-cols-1 lg:grid-cols-2">
+				<div>
+					<div class="mb-5 font-medium text-twitch-metalgear">
+						<h3>Stay Connected</h3>
+					</div>
+					<ul class="flex flex-row -mx-2 gap-x-2">
+						
+						<li><a href="https://www.facebook.com/brandmotion" target="_blank"><img
+									src="/images/Facebook.png" alt="Facebook"></a></li>
+						<li><a href="https://www.instagram.com/brandmotion/" target="_blank"><img
+									src="/images/Instagram.png" alt="Instagram"></a></li>
+						
+						<li><a href="https://twitter.com/brandmotion" target="_blank"><img
+									src="/images/x-update.png" alt="x"></a></li>
+					</ul>
+				</div>
+				<div class="mb-8 space-y-10 lg:space-x-24 lg:space-y-0 lg:mb-0"></div>
+			</div>
+			<div>
+				<div class="flex items-end sm:justify-end grow">
+					<div class="flex flex-col gap-y-2">
+						<ul class="flex flex-col h-full gap-4 mt-auto xl:items-end xl:justify-end xl:flex-row">
+							<a href="/">
+								<li>Privacy Policy</li>
+							</a><a href="/">
+								<li>Terms of Service</li>
+							</a><a href="/">
+								<li>Refund Policy</li>
+							</a><a href="/">
+								<li>Cookie Notice</li>
+							</a></ul>
+						<div class="flex lg:items-end lg:justify-end">© 2024 brandmotion. All Rights
+							Reserved.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="/js/app.js"></script>
+</body>
+</html>
