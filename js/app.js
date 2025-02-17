@@ -3067,7 +3067,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   var api = init(defaultConverter, { path: "/" });
   var js_cookie_default = api;
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/current-user/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/current-user/index.js
   var normalizeCountryCode = (code) => {
     if (code) {
       return code.toLowerCase().trim();
@@ -3172,7 +3172,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     }
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/language-selector/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/language-selector/index.js
   var normalizeLanguageCode2 = (code) => {
     let language = code.toLowerCase();
     if (-1 === language.indexOf("-")) {
@@ -3329,7 +3329,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/redirect/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/redirect/index.js
   var redirect_default = () => {
     const normalizePreferredLanguage = (lang) => {
       if (/^fr-?/i.test(lang)) {
@@ -3426,7 +3426,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/carousel/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/carousel/index.js
   var carousel_default = (itemSelector, threshold = 1) => {
     return {
       carouselItems: [],
@@ -3470,7 +3470,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/carouselV2/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/carouselV2/index.js
   function carouselV2(itemSelector, threshold = 1) {
     return {
       carouselItems: [],
@@ -3617,7 +3617,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   var fallbackImage = "https://cdn.m7g.twitch.tv/eae64763cab2144a06b0/assets/uploads/1306x700-blog-header-wip.jpg";
   var featuredAttendees = { "las-vegas-2023": [{ username: "aydan", visible: true }, { username: "itshafu", visible: true }, { username: "brucegreene", visible: true }, { username: "tinakitten", visible: true }, { username: "xchocobars", visible: true }, { username: "pointcrow", visible: true }, { username: "extraemily", visible: true }, { username: "sypherpk", visible: true }, { username: "quarterjade", visible: true }, { username: "sydeon", visible: true }, { username: "julien", visible: true }, { username: "peterpark", visible: true }, { username: "triciaisabirdy", visible: true }, { username: "scarra", visible: true }, { username: "ariasaki", visible: true }, { username: "buddha", visible: true }, { username: "sylveey", visible: true }, { username: "HasanAbi", visible: true }, { username: "BigBossBoze", visible: true }, { username: "LuluLuvely", visible: true }, { username: "BiqtchPuddin", visible: true }, { username: "BigCheese", visible: true }], "paris-2023": [{ username: "Psyche", visible: true }, { username: "fisHC0p", visible: true }, { username: "Arbmeis", visible: true }, { username: "StudyTme", visible: true }, { username: "Bulledop", visible: true }, { username: "pepipin", visible: true }, { username: "Solivann", visible: true }, { username: "Lu_K", visible: true }, { username: "HasanAbi", visible: true }, { username: "pokimane", visible: true }], "rotterdam-2024": [], "san-diego-2024": [] };
   var languages = [{ code: "en", label: null, url: "/en" }];
-  var offsiteWarning = { hosts: ["https://twitchcon.bnetwork.com", "https://en.rotterdam.info/", "https://en.rotterdam.info/visitors-info/to-rotterdam/", "https://www.ahoy.nl/en/information", "https://www.ahoy.nl/en/accessibility", "https://reg.rainfocus.com/flow/twitch/tcrt24/registration/", "https://reg.rainfocus.com/flow/twitch/tcrt24/nomination/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/artistalleyguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/communitysessionsguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/cosplayshowcaseguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/dragshowcaseguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/interactivesessionsguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/musicsessionsguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/", "https://reg.rainfocus.com/flow/twitch/tcsd24/registration/", "https://reg.rainfocus.com/flow/twitch/tcsd24/nomination/", "https://bit.ly/twitchcon-delta", "https://book.passkey.com/e/50748297", "http://reg.rainfocus.com/flow/twitch/tcsd24/registration&back=/san-diego-2024/tickets/", "https://book.passkey.com/go/TwitchConEUHR25", "https://book.passkey.com/go/TwitchCon25SD", {}], warning_path: "/offsite/" };
+  var offsiteWarning = { hosts: ["https://brandmotion.bnetwork.com", "https://en.rotterdam.info/", "https://en.rotterdam.info/visitors-info/to-rotterdam/", "https://www.ahoy.nl/en/information", "https://www.ahoy.nl/en/accessibility", "https://reg.rainfocus.com/flow/twitch/tcrt24/registration/", "https://reg.rainfocus.com/flow/twitch/tcrt24/nomination/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/artistalleyguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/communitysessionsguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/cosplayshowcaseguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/dragshowcaseguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/interactivesessionsguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/page/musicsessionsguidelines/", "https://reg.rainfocus.com/flow/twitch/tcsd24/tcsd24cfc/", "https://reg.rainfocus.com/flow/twitch/tcsd24/registration/", "https://reg.rainfocus.com/flow/twitch/tcsd24/nomination/", "https://bit.ly/brandmotion-delta", "https://book.passkey.com/e/50748297", "http://reg.rainfocus.com/flow/twitch/tcsd24/registration&back=/san-diego-2024/tickets/", "https://book.passkey.com/go/brandmotionEUHR25", "https://book.passkey.com/go/brandmotion25SD", {}], warning_path: "/offsite/" };
   var schedule = { "rotterdam-2024": [], "san-diego-2024": [] };
 
   // node_modules/@alpinejs/focus/dist/module.esm.js
@@ -4485,7 +4485,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
   }
   var module_default3 = src_default3;
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/post-image/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/post-image/index.js
   var post_image_default = () => {
     return {
       wrapCDN(src) {
@@ -4512,7 +4512,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/geotarget/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/geotarget/index.js
   var getCountryCodeFromCookie = (name = "twitch.lohp.countryCode") => {
     let countryCode = js_cookie_default.get(name);
     if (countryCode) {
@@ -4534,7 +4534,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/404/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/404/index.js
   var __default = (terms, pages, numPages) => {
     return {
       results: [],
@@ -4562,7 +4562,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/image/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/image/index.js
   var image_default = (localizedSource, source, paramsArray) => {
     return {
       params: {},
@@ -4630,7 +4630,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/attendees/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/attendees/index.js
   var attendees_default = (event) => {
     return {
       featuredAttendees: [],
@@ -4640,7 +4640,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
         this.fetch();
       },
       async fetch() {
-        const request = await fetch(`https://www.twitchcon.com/api/${event}/attendees/`);
+        const request = await fetch(`https://www.brandmotion.com/api/${event}/attendees/`);
         const data2 = await request.json();
         const attendees = [];
         const featured = [];
@@ -4672,7 +4672,7 @@ ${expression ? 'Expression: "' + expression + '"\n\n' : ""}`, el);
     };
   };
 
-  // ns-hugo:/home/ubuntu/actions-runner/_work/twitchcon-hugo/twitchcon-hugo/site/src/assets/_script/schedule/index.js
+  // ns-hugo:/home/ubuntu/actions-runner/_work/brandmotion-hugo/brandmotion-hugo/site/src/assets/_script/schedule/index.js
   var schedule_default = (event) => {
     return {
       schedule: schedule[event] || [],

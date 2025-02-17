@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brandmotion.github.io/web/</loc>
+    <loc>/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/my-first-post-copy-2/</loc>
+    <loc>/posts/my-first-post-copy-2/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/my-first-post-copy-3/</loc>
+    <loc>/posts/my-first-post-copy-3/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/my-first-post-copy-4/</loc>
+    <loc>/posts/my-first-post-copy-4/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/my-first-post-copy-5/</loc>
+    <loc>/posts/my-first-post-copy-5/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/my-first-post-copy/</loc>
+    <loc>/posts/my-first-post-copy/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/posts/my-first-post/</loc>
+    <loc>/posts/my-first-post/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brandmotion.github.io/web/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>https://brandmotion.github.io/web/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://brandmotion.github.io/web/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
